@@ -127,34 +127,27 @@ a {
   z-index: 1;
 }
 .jumbotron {
-  padding: 80px 0px 80px 40px;
-  text-align: left;
   height:100vh;
+  display: flex;
+  min-width:1080px;
 }	
-.main-left{
-	float: left;
-	width: 40%;
-	padding-left: 70px;
+.main-right .main-left{
+  flex:auto;
+  width: 50%;
+  text-align: left;
 }
-
-.main-right{
-	float:right;
-	width: 60%;
+.main-left h1{
+  padding-top: 100px;
+  color: #B1E4F3;
+  font-size: 35px;
+  margin-bottom:20px; 
+  padding-left:80px;
+}
+.main-left p{
+  padding-left: 80px;
 
 }
 .main-right img{
-	height: 500px;
-	width: 600px;
-	
-}
-.main-left h1{
-	color: #B1E4F3;
-	font-size: 35px;
-	padding-top: 100px;
-	margin-bottom:20px;	
-	max-width: 1170px;
-}
-.main-left p{
-	overflow: visible;
-	font-size: 20px;
+  width: 500px;
+  height: 500px;
 }
