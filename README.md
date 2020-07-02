@@ -12,4 +12,4 @@
 
 ## Kontributor
 
-:octocat: [larastaslima](https://github.com/larastaslima), [opxop](https://github.com/opxop), [tejow](https://github.com/tejow), [zudhapratama21](https://github.com/zudhapratama21), dan [choco-beans](https://github.com/choco-beans)
+:octocat: [larastaslima](https://github.com/larastaslima), [opxop](https://github.com/opxop), [tejow](https://github.com/tejow), [zudha](https://github.com/zudha), dan [choco-beans](https://github.com/choco-beans)
