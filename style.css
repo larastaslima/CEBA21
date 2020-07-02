@@ -41,10 +41,21 @@ body {
 
 .item-box {
   padding: 20px;
+  opacity: 0.75;
   margin: 15px;
-  background-color: #fdfdfd;
   box-shadow: 0 8px 18px 0 rgba(0, 0, 0, 0.035);
   border-radius: 15px;
+  position: relative;
+  top: 0;
+  transition: all .1s ease-in;
+  cursor: pointer;
+  display: block;
+}
+
+.item-box:hover {
+  top: -2px;
+  opacity: 0.95;
+  box-shadow: 0 4px 5px rgba(0,0,0,0.2);
 }
 
 .item img {
