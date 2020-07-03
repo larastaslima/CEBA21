@@ -5,7 +5,7 @@
   outline: none;
   list-style: none;
   text-decoration: none;
-  font-family: "roboto", sans-serif;
+  font-family: "muli", sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -52,11 +52,11 @@ a {
 	width: 45px;
 }
 .navbar-right{
-	float:right;	
+	float:right;
 }
 .navbar-right li{
 	margin-right: 20px;
-	display: inline-block;	
+	display: inline-block;
 }
 .navbar-right a{
 	color: #ABAAA8;
@@ -91,7 +91,7 @@ a {
   height:100vh;
   display: flex;
   min-width:1080px;
-}	
+}
 .main-right .main-left{
   flex:auto;
   width: 50%;
@@ -101,7 +101,7 @@ a {
   padding-top: 100px;
   color: #B1E4F3;
   font-size: 35px;
-  margin-bottom:20px; 
+  margin-bottom:20px;
   padding-left:80px;
 }
 .main-left p{
