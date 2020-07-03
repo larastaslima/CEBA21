@@ -34,12 +34,13 @@
   }
 
   /* contact */
-.people {
-  display: none;
-}
+  .people {
+    display: none;
+  }
 
-.message-wrapper {
-  margin: 0 25px 50px;
+  .message-wrapper {
+    margin: 0 25px 50px;
+  }
 }
 
 @media (max-width: 920px) {
