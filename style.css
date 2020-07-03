@@ -110,7 +110,7 @@ nav {
 
 .btn.btn-primary {
   width: 180px;
-  font-size: 16px;
+  font-size: 14px;
   color: #000;
   font-weight: 700;
   margin-bottom: 30px;
@@ -181,6 +181,10 @@ nav {
 }
 
 /* contact */
+#contact {
+  margin: 50px 0 100px;
+}
+
 .message-wrapper {
   display: flex;
   margin: 0 75px 50px;
@@ -243,16 +247,33 @@ textarea {
 
 /* footer */
 footer {
-  background-color: white;
-  height: 100px;
-  text-align: center;
+  width: 100%;
+  height: 50px;
+  padding: 0 200px;
+  background-color: #dff6ff;
+  line-height: 50px;
 }
 
-.copyright img {
-  padding: 5px;
+footer .organizer {
+  float: left;
 }
 
-.copyright p {
-  font-size: 16px;
-  font-weight: light;
+footer .organizer span {
+  padding: 0 10px;
+}
+
+footer .organizer a,
+footer .copyright p {
+  font-size: 14px;
+  color: #000;
+}
+
+footer .organizer a:hover {
+  font-size: 14px;
+  color: #7d7987;
+  transition: all 0.5s linear;
+}
+
+footer .copyright {
+  float: right;
 }

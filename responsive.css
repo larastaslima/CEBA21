@@ -1,7 +1,6 @@
 @media (max-width: 640px) {
   /* main1 */
   .jumbotron {
-    height: 80vh;
     padding: 0 !important;
     margin: 0;
     flex: none !important;
@@ -11,7 +10,7 @@
     margin-top: 100px !important;
     width: 100%;
     text-align: center;
-    padding: 0 5px !important;
+    padding: 0 15px !important;
   }
 
   .btn.btn-primary {
@@ -30,7 +29,6 @@
 
 @media (max-width: 920px) {
   .jumbotron {
-    height: 80vh;
     padding: 50px 0;
     margin: 0;
     flex: none;
@@ -72,5 +70,21 @@
   /* main2 */
   .item-wrapper {
     flex-wrap: wrap;
+  }
+
+  /* footer */
+  footer {
+    padding: 0;
+    background-color: #dff6ff;
+    line-height: 50px;
+  }
+
+  footer .organizer {
+    display: none;
+  }
+
+  footer .copyright {
+    text-align: center;
+    float: none;
   }
 }
