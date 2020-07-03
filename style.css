@@ -94,6 +94,37 @@ nav {
   width: 600px;
 }
 
+.btn {
+  background: #dff6ff;
+  border: 1px solid #dff6ff;
+  border-bottom: 4px solid #b1e4f9;
+  border-radius: 8px;
+  box-shadow: 0px 0.769896px 3.62304px rgba(0, 0, 0, 0.0243888),
+    0px 2.12866px 10.0172px rgba(0, 0, 0, 0.035),
+    0px 5.125px 24.1177px rgba(0, 0, 0, 0.0456112);
+  padding: 10px 25px;
+  letter-spacing: 1px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.btn.btn-primary {
+  width: 180px;
+  font-size: 16px;
+}
+
+.btn:hover {
+  opacity: 1;
+  border: 1px solid #b1e4f3;
+  border-bottom: 4px solid #b1e4f9;
+}
+
+.btn.btn-primary:active {
+  position: relative;
+  top: 5px;
+  border: none;
+}
+
 /* main2 */
 .main2 {
   padding: 30px 0;
