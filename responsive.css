@@ -1,110 +1,63 @@
 @media (max-width: 640px) {
-  .container {
-    max-width: 640px;
+  .nav-wrapper {
+    margin: 0 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
+
+  /* main1 */
+  .jumbotron {
+    height: 80vh;
+    padding: 0;
+    margin: 0;
+  }
+
+  .main-left {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    padding: 0 50px;
+  }
+
   .main-right img {
-    width: 300px;
-    height: 300px;
+    display: none;
   }
-  .main-left h1 {
-    padding-left: 50px;
+
+  .btn.btn-primary {
+    margin: 0 auto;
   }
-  .main-left p {
-    padding-left: 50px;
+
+  /* main2 */
+  .item-wrapper {
+    flex-wrap: wrap;
   }
-  .dropdown {
-    display: block;
-  }
-  .dropdown-nav {
-    position: absolute;
-    right: 0;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-  }
-  .dropdown:hover .dropdown-nav {
-    display: block;
-  }
-  .dropdown-nav a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  .dropdown-content a:hover {
-    background-color: #f1f1f1;
-  }
+
+  /* contact */
 }
 
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-  .jumbotron {
-    padding: 80px 100px 0px 100px;
-    height: 70vh;
-  }
-  .main-left h1 {
-    padding-top: 70px;
-  }
-  .main-right img {
-    width: 350px;
-    height: 350px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-  }
-  .jumbotron {
-    height: 120vh;
-  }
-  .main-right img {
-    width: 500px;
-    height: 500px;
-  }
+@media (max-width: 920px) {
   header {
     padding-left: 100px;
     padding-right: 50px;
   }
+
   .main-left h1 {
     flex: auto;
     margin: 0 auto;
   }
+
   .main-left p {
     flex: auto;
     margin: 0 auto;
   }
+
   .main-right {
     flex: auto;
     margin: 0 auto;
   }
-}
 
-/*felxbox*/
-@media (max-width: 640px) {
-  .item-wrapper {
-    flex-direction: column;
-  }
-
-  .item {
-    margin: 10px 0;
-  }
-}
-
-@media (max-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-  .item-wrapper {
-    flex-wrap: wrap;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
+  .main-right img {
+    display: none;
   }
 }
