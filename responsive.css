@@ -1,20 +1,11 @@
 @media (max-width: 640px) {
-  /* main1 */
-  .jumbotron {
-    padding: 0 !important;
-    margin: 0;
-    flex: none !important;
-  }
-
-  .main-left {
-    margin-top: 100px !important;
-    width: 100%;
-    text-align: center;
-    padding: 0 15px !important;
-  }
-
   .btn.btn-primary {
     margin: 0 auto;
+  }
+
+  /* main1 */
+  .main-left h1 {
+    padding-top: 15vh !important;
   }
 
   /* contact */
@@ -28,17 +19,19 @@
 }
 
 @media (max-width: 920px) {
-  .jumbotron {
-    padding: 50px 0;
-    margin: 0;
-    flex: none;
-  }
-
   .nav-wrapper {
     margin: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
+  }
+
+  .jumbotron {
+    height: 100vh;
+    background: linear-gradient(135deg, #dff6ff 0%, #fff 200%);
+    padding: 50px 0;
+    margin: 0;
+    flex: none;
   }
 
   .main-left {
@@ -49,6 +42,7 @@
   }
 
   .main-left h1 {
+    padding-top: 20vh;
     flex: auto;
     margin: 0 auto;
   }
@@ -70,6 +64,10 @@
   /* main2 */
   .item-wrapper {
     flex-wrap: wrap;
+  }
+
+  .main2 h2 {
+    padding-top: 10px;
   }
 
   /* footer */
